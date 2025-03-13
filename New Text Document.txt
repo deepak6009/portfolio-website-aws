@@ -1,0 +1,603 @@
+<!-- index.html -->
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Deepak - Cloud Solutions Architect</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Dee<span>pak</span></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/deepak6009" target="_blank" class="btn">
+                <i class="fab fa-github"></i> Git-Hub
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="content">
+            <h4>Hey there! I'm</h4>
+            <h1>Sai <span>Deepak</span></h1>
+            <h3>🏅 2x AWS Certified | Cloud Enthusiast Architecting Tomorrow's Innovations</h3>
+            <p>Welcome to My World of Cloud Solutions and Creative Engineering!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <h5>AWS Certified Cloud Specialist</h5>
+            <p>I'm <strong>P V Sai Deepak</strong>, a B.Tech CSE student at ANITS (8.91 CGPA) and dual 
+                <span class="highlight">AWS CERTIFIED PROFESSIONAL</span> (Cloud Practitioner & Solutions 
+                Architect Associate). Certified through 2024-25, I architect secure cloud solutions using 
+                core AWS services including EC2, S3, Lambda, and VPC.</p>
+            <p>My expertise spans Python development, cloud networking (subnetting, security groups), and 
+                infrastructure monitoring with CloudWatch. Passionate about serverless architectures, 
+                I combine academic rigor with certified AWS best practices to build scalable cloud systems, 
+                while actively participating in technical hackathons and workshops to stay ahead in cloud innovation.</p>
+        </div>
+    </section>
+
+    <!-- AWS Certifications Section -->
+    <section class="certifications" id="certifications">
+        <h2>AWS Certifications</h2>
+        <div class="cert-container">
+            <!-- Cloud Practitioner Certificate -->
+            <div class="cert-card">
+                <div class="cert-img">
+                    <img src="aws-certified-cloud-practitioner.png" 
+                         alt="AWS Certified Cloud Practitioner" 
+                         class="badge-icon">
+                </div>
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Valid Until: January 2028</p>
+                <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/b7cb4fea227540bcb407289f4364c560" 
+                   target="_blank" class="verify-btn">Verify Credential</a>
+            </div>
+            <!-- Solutions Architect Certificate -->
+            <div class="cert-card">
+                <div class="cert-img">
+                    <img src="solution_arch.png" 
+                         alt="AWS Solutions Architect Associate" 
+                         class="badge-icon">
+                </div>
+                <h3>AWS Solutions Architect Associate</h3>
+                <p>Valid Until: January 2028</p>
+                <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/55d5d862c2f04b22a9c92e676c3cf496" 
+                   target="_blank" class="verify-btn">Verify Credential</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Languages</h3>
+                <p>Proficient in Java, C, JavaScript, HTML, CSS</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Computing</h3>
+                <p>Extensive experience with Amazon Web Services (AWS) and cloud architecture.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Signature Project</h2>
+        <div class="project-content">
+            <h3>Website Development Experience for College Canteen</h3>
+            <p>At Anil Neerukonda Institute of Technology & Sciences, I spearheaded the development of a 
+               WordPress website for the college canteen. The project implemented innovative features like:</p>
+            <ul>
+                <li>Pre-Ordering with Time Slots</li>
+                <li>Enhanced Order Management</li>
+                <li>Door Delivery Integration</li>
+                <li>Payment Gateway Integration</li>
+            </ul>
+            <a href="https://anits-sds.in/" target="_blank" class="project-link">Visit Website</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <h2>My Resume</h2>
+        <div class="resume-container">
+            <a href="https://drive.google.com/file/d/1s2novEcJ1sgyDF3POATmLYaTeyKI7f2W/view?usp=sharing" 
+               target="_blank" class="resume-btn">
+                <i class="fas fa-file-alt"></i>
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer/Contact Section -->
+    <footer id="contact">
+        <h2>Sai Deepak</h2>
+        <p>Feel free to reach out by clicking the links below.</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/deepak.idc" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/pvsdeepak/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">© Sai Deepak</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+<!-- style.css -->
+```css
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CSS Variables for consistent theming */
+:root {
+    --primary-color: #f9004d;
+    --bg-dark: #000000;
+    --bg-darker: #101010;
+    --text-light: #ffffff;
+    --text-gray: #fcfc;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Mobile Menu Button */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background: var(--text-light);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.content h4 {
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    margin-bottom: 1rem;
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+}
+
+/* About Section Styles */
+.about {
+    padding: 100px 8%;
+    background-color: var(--bg-darker);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about h5 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Certifications Section Styles */
+.certifications {
+    padding: 100px 8%;
+    background-color: var(--bg-dark);
+}
+
+.cert-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.cert-card {
+    background: var(--bg-darker);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-card:hover {
+    transform: translateY(-10px);
+}
+
+.cert-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.cert-card:hover .badge-icon {
+    transform: scale(1.05);
+}
+
+.verify-btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.verify-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Skills Section Styles */
+.skills {
+    padding: 100px 8%;
+    background-color: var(--bg-darker);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.skill-card {
+    background: var(--bg-dark);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Projects Section Styles */
+.projects {
+    padding: 100px 8%;
+    background-color: var(--bg-dark);
+}
+
+.project-content {
+    max-width: 800px;
+    margin: 3rem auto 0;
+}
+
+.project-content ul {
+    list-style-position: inside;
+    margin: 1.5rem 0;
+}
+
+.project-link {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    transform: scale(1.1);
+}
+
+/* Resume Section Styles */
+.resume {
+    padding: 100px 8%;
+    background-color: var(--bg-darker);
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Footer/Contact Styles */
+footer {
+    padding: 50px 8%;
+    background-color: var(--bg-darker);
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 1rem 5%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.95);
+        width: 100%;
+        text-align: center;
+        transition: right 0.3s ease;
+        padding: 2rem 0;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        padding: 80px 5% !important;
+    }
+
+    .cert-container, .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+}
+```
+
+<!-- script.js -->
+```javascript
+// Wait for DOM to load before running scripts
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile menu functionality
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const links = document.querySelectorAll('.nav-links li');
+
+    // Toggle mobile menu
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+
+        // Animate hamburger menu
+        hamburger.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+    });
+
+    // Highlight active section in navigation
+    const sections = document.querySelectorAll('section');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    // Update active navigation item on scroll
+    window.addEventListener('scroll', () => {
+        let current = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+
+            if (pageYOffset >= sectionTop - 300) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        // Update active class on navigation items
+        navItems.forEach(item => {
+            item.classList.remove('active');
+            if (item.getAttribute('href').includes(current)) {
+                item.classList.add('active');
+            }
+        });
+    });
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+```
